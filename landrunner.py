@@ -7,8 +7,8 @@ import pickle as pk
 from os import path
 
 # Declare path from image and sound folder
-img_dir = path.join(path.dirname(__file__), 'img')
-snd_dir = path.join(path.dirname(__file__), 'snd')
+img_dir = path.join(path.dirname(__file__), 'src/img')
+snd_dir = path.join(path.dirname(__file__), 'src/snd')
 
 # Game settings
 width = 1024
@@ -49,7 +49,7 @@ clock = py.time.Clock()
 
 # Definition for drawing text
 def draw_text(surf, text, size, x, y, color):
-    font = py.font.Font(path.join(path.dirname(__file__), 'galaxy-monkey.regular.ttf'), size)
+    font = py.font.Font(path.join(path.dirname(__file__), 'src/font/galaxy-monkey.regular.ttf'), size)
     text_surface = font.render(text, True, color)
     text_rect = text_surface.get_rect()
     text_rect.midbottom = (x, y)
