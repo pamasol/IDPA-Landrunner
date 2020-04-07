@@ -16,7 +16,7 @@ Apprentices can optionally add BMS (Berufsmaturitätschule) to their school expe
 
 2. Clone this repository with `git clone https://github.com/pamasol/IDPA-Landrunner.git` and navigate into the folder with `cd IDPA-Landrunner`.
 
-3. Run the script with `python landrunner.py` and enjoy!
+3. Run the script with `python landrunner.py` or in case you want to use a controller run the script with `python landrunner_joystick.py` and enjoy!
 
 
 ## How to install on a Raspberry Pi 3
