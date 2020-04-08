@@ -16,7 +16,7 @@ Apprentices can optionally add BMS (Berufsmaturitätschule) to their school expe
 
 2. Install [Virtualenvwrapper for Windows](https://github.com/davidmarble/virtualenvwrapper-win/) via pip package-manager: `pip install virtualenvwrapper-win`.
 
-> Virtuanenvwrapper for Windows is a tool for creating isolated virtual python environments.
+> Virtualenvwrapper for Windows is a tool for creating isolated virtual python environments.
 
 3. Create a new virtual enviroment: `mkvirtualenv -p 3 landrunner`
 
