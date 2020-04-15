@@ -20,21 +20,22 @@ Apprentices can optionally add BMS (Berufsmaturitätschule) to their school expe
 
 3. Create a new virtual enviroment: `mkvirtualenv -p 3 landrunner`
 
-4. Run `workon landrunner` in cmd. As soon as console switched to the virtual enviroment, you should get a command line like *(landrunner) C:\repos\IDPA-Landrunner>*.
+4. Run `workon landrunner` in CMD. As soon as console switched to the virtual enviroment, you should get a command line like `(landrunner) C:\repos\IDPA-Landrunner>`.
 
-> Please note: *virtualenvwrapper-win* commands only work in the regular command prompt cmd. They will not work in Powershell. When you are in [Visual Studio Code](https://code.visualstudio.com/) terminal for example, run `cmd /k workon landrunner`.
+> Please note: `virtualenvwrapper-win` commands only work in the regular command prompt. They will not work in Powershell. When you are in [Visual Studio Code](https://code.visualstudio.com/) terminal for example, run `cmd /k workon landrunner`.
 
-5. Clone this repository with `git clone https://github.com/pamasol/IDPA-Landrunner.git` and navigate into the project folder with `cd IDPA-Landrunner`.
+5. Clone this repository with `git clone https://github.com/pamasol/IDPA-Landrunner.git` and navigate into the folder with `cd IDPA-Landrunner`.
 
-6. In the virtual enviroment, install project dependencies with `pip install -r requirements.txt`.
+6. In the virtual enviroment, install dependencies with `pip install -r requirements.txt`.
 
 7. Run the script with `python landrunner.py`. As soon as it is started press **space key** and enjoy!
 
 
 ## How to install on a Raspberry Pi 3
-ToDo
+1. You'll need to install Raspbian Buster with desktop and recommended software on your RaspberryPi (it was tested with the Raspbian Version September 2019 and a RaspberryPi 3 B+). Download and installRaspbian from [raspberrypi.org/downloads/raspbian](https://www.raspberrypi.org/downloads/raspbian/).
 
+2. After installing Raspbian clone this repository on to your RaspberryPi with `git clone https://github.com/pamasol/IDPA-Landrunner.git` and navigate into the folder with `cd IDPA-Landrunner`. 
 
-## Documentation
+3. The requirements should already be installed within Raspbian. If not, install depencies with `pip install -r requirements.txt`.
 
-This project is well documented in German language. See [IDPA_Dokumentation_Marvin_Bueeler.pdf](doc/IDPA_Dokumentation_Marvin_Bueeler.pdf) for more information.
+4. Run the script with `python landrunner.py`. As soon as it is started press **space key** and enjoy!
