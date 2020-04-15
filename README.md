@@ -12,7 +12,7 @@ Apprentices can optionally add BMS (Berufsmaturitätschule) to their school expe
 
 ## How to install on a PC with Windows 10 operating system
 
-1. You'll need to install Python 3.7+ (other versions of Pyhton could also work).  Download and install Python from [python.org/downloads](https://www.python.org/downloads/). This repo has been tested with Python 3.7.3 and Python 3.8.2. Check your installed Python version with `python --version`.
+1. You'll need to install Python 3.7+ (other versions of Pyhton could also work).  Download and install Python from [python.org/downloads](https://www.python.org/downloads/). Open a terminal (for example [cmd](https://en.wikipedia.org/wiki/Cmd.exe)) and check if Python is installed correctly with command `python --version`. You should get an output like *Python 3.8.2*.
 
 2. Install [Virtualenvwrapper for Windows](https://github.com/davidmarble/virtualenvwrapper-win/) via pip package-manager: `pip install virtualenvwrapper-win`.
 
