@@ -33,3 +33,8 @@ Apprentices can optionally add BMS (Berufsmaturitätschule) to their school expe
 
 ## How to install on a Raspberry Pi 3
 ToDo
+
+
+## Documentation
+
+This project is well documented in German language. See [IDPA_Dokumentation_Marvin_Bueeler.pdf](doc/IDPA_Dokumentation_Marvin_Bueeler.pdf) for more information.
