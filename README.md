@@ -20,13 +20,13 @@ Apprentices can optionally add BMS (Berufsmaturitätschule) to their school expe
 
 3. Create a new virtual enviroment: `mkvirtualenv -p 3 landrunner`
 
-4. Run `workon landrunner` in CMD. As soon as console switched to the virtual enviroment, you should get a command line like `(landrunner) C:\repos\IDPA-Landrunner>`.
+4. Run `workon landrunner` in cmd. As soon as console switched to the virtual enviroment, you should get a command line like *(landrunner) C:\repos\IDPA-Landrunner>*.
 
-> Please note: `virtualenvwrapper-win` commands only work in the regular command prompt. They will not work in Powershell. When you are in [Visual Studio Code](https://code.visualstudio.com/) terminal for example, run `cmd /k workon landrunner`.
+> Please note: *virtualenvwrapper-win* commands only work in the regular command prompt cmd. They will not work in Powershell. When you are in [Visual Studio Code](https://code.visualstudio.com/) terminal for example, run `cmd /k workon landrunner`.
 
-5. Clone this repository with `git clone https://github.com/pamasol/IDPA-Landrunner.git` and navigate into the folder with `cd IDPA-Landrunner`.
+5. Clone this repository with `git clone https://github.com/pamasol/IDPA-Landrunner.git` and navigate into the project folder with `cd IDPA-Landrunner`.
 
-6. In the virtual enviroment, install dependencies with `pip install -r requirements.txt`.
+6. In the virtual enviroment, install project dependencies with `pip install -r requirements.txt`.
 
 7. Run the script with `python landrunner.py`. As soon as it is started press **space key** and enjoy!
 
