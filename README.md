@@ -40,7 +40,7 @@ Apprentices can optionally add BMS (Berufsmaturitätschule) to their school expe
 
 4. To run the game at the startup of the RasperryPi, you'll need to edit the bash.rc file. Open a terminal and type ` sudo nano /home/pi/.bashrc`. Go to the last line of the script and add 
 `echo Running at boot`
-`sudo python /home/pi/sample.py`
+`sudo python /home/pi/sample.py`. For mor Help visit [dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/). I used the second method of this tutorial.
 
 5. Now your RasperryPi should be ready to go. Restart the Pi and the game should start. 
 
