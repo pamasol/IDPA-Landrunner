@@ -32,7 +32,7 @@ Apprentices can optionally add BMS (Berufsmaturitätschule) to their school expe
 
 
 ## How to install on a Raspberry Pi 3
-1. You'll need to install Raspbian Buster with desktop and recommended software on your RaspberryPi (it was tested with the Raspbian Version September 2019 and a RaspberryPi 3 B+). Download and installRaspbian from [raspberrypi.org/downloads/raspbian](https://www.raspberrypi.org/downloads/raspbian/).
+1. You'll need to install Raspbian Buster with desktop and recommended software on your RaspberryPi (it was tested with the Raspbian Version September 2019 and a RaspberryPi 3 B+). Download and install Raspbian from [raspberrypi.org/downloads/raspbian](https://www.raspberrypi.org/downloads/raspbian/).
 
 2. After installing Raspbian clone this repository on to your RaspberryPi with `git clone https://github.com/pamasol/IDPA-Landrunner.git` and navigate into the folder with `cd IDPA-Landrunner`. 
 
