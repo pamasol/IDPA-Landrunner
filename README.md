@@ -38,7 +38,11 @@ Apprentices can optionally add BMS (Berufsmaturitätschule) to their school expe
 
 3. The requirements should already be installed within Raspbian. If not, install depencies with `pip install -r requirements.txt`.
 
-4. Run the script with `python landrunner.py`. As soon as it is started press **space key** and enjoy!
+4. To run the game at the startup of the RasperryPi, you'll need to edit the bash.rc file. Open a terminal and type ` sudo nano /home/pi/.bashrc`. Go to the last line of the script and add 
+`echo Running at boot 
+sudo python /home/pi/sample.py`
+
+5. Now your RasperryPi should be ready to go. Restart the Pi and the game should start. 
 
 
 ## Documentation
