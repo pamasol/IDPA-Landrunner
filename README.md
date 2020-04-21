@@ -34,17 +34,17 @@ Apprentices can optionally add BMS (Berufsmaturitätschule) to their school expe
 ## How to install on a Raspberry Pi 3
 1. You'll need to install Raspbian Buster with desktop and recommended software on your RaspberryPi (it was tested with the Raspbian Version September 2019 and a RaspberryPi 3 B+). Download and install Raspbian from [raspberrypi.org/downloads/raspbian](https://www.raspberrypi.org/downloads/raspbian/).
 
-2. After installing Raspbian clone this repository on to your RaspberryPi with `git clone https://github.com/pamasol/IDPA-Landrunner.git` and navigate into the folder with `cd IDPA-Landrunner`. 
+2. After installing Raspbian clone this repository on to your RaspberryPi with `git clone https://github.com/pamasol/IDPA-Landrunner.git`. I would recommend to clone the repository into the /home/pi folder on your RaspberryPi.
 
 3. The requirements should already be installed within Raspbian. If not, install depencies with `pip install -r requirements.txt`.
 
-4. To run the game at the startup of the RasperryPi, you'll need to edit the bash.rc file. Open a terminal and type ` sudo nano /home/pi/.bashrc`. Go to the last line of the script and add 
-`echo Running at boot`,
-`sudo python /home/pi/sample.py`. For more Help visit [dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/). I used the second method of this tutorial.
+4. To run the game at the startup of the RasperryPi, you'll need to edit the bash.rc file. On order to do that navigate to the /home/pi folder. Now you'll need to display hidden files. This can easily be done in your file mannager in the tab view by clicking on show hidden files. 
 
-5. Now your RasperryPi should be ready to go. Restart the Pi and the game should start. 
+5. Now open the bash.rc file with the text editor by your choice and go to the last line of the script. Here you need to add `echo Running at boot`and `sudo python /home/pi/sample.py`. For further instructions visit [dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/). I used the second method of this tutorial.
+
+5. Now your RasperryPi should be ready to go. Restart the Pi or open a new terminal and the game should start. 
 
 
 ## Documentation
 
-This project is well documented in German language. See [IDPA_Dokumentation_Marvin_Bueeler.pdf](doc/IDPA_Dokumentation_Marvin_Bueeler.pdf) for more information.
+This project is well documented in German language. See [IDPA_Dokumentation_Marvin_Bueeler.pdf](doc/IDPA_Dokumentation_Marvin_Bueeler.pdf) for more information. The whole instructions on how to build the arcade machine, can be found in the documentation.
